@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Facebook - Inicia sessão ou regista-te</title>
+
+		<link rel="shortcut icon" type="image/icon" href="assets/images/logo.svg"/> 
+		
+		<link rel="stylesheet" href="assets/css/maven.css" >	
+
+    </head>
+	
+	<body>
+		 <section id="section-login">
+		 	<div class="conteudo-slide">
+		 		<img src="./assets/images/logo.svg" class="logo">
+		 		<h2>O Facebook ajuda-te a comunicar e a partilhar com as pessoas que fazem parte da tua vida.
+		 		</h2>
+		 	</div>
+
+			<div class='majorClass' style="">
+				<form class="card-login" action="#" method="POST">
+					<div id="content-form"> 
+					<input type="text" name="nome" class="form-control" placeholder="E-mail ou número de telemóvel">  
+					<input value="" type="password" name="pass" class="form-control" placeholder="Palavra-passe"> 
+					<input type="submit" class="btn-action" name="entrar" value="Iniciar Sessão" >  
+					 
+					<a class="password-link" href="#!">Não sabes a tua palavra-passe?</a>
+					<div class="linha"></div>
+				<br>
+					<a href="#!" id="criarNovaConta">Criar nova Conta</a>
+					<br>
+					</div>
+				</form>
+				<div class="criarPagina"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form" class="_8esh">Cria uma Página</a> para uma celebridade, banda ou empresa.</div>
+			
+			</div>
+		 </section>
+
+					<!--img src="clone.png"-->
+
+		 <section id="modal-criar-conta">
+		 	<span id="closeModal"> <i class="material-icons" id="closeIcons" style="font-size: 26px;font-weight: 400;cursor: pointer;">close</i></span>
+		 	<form class="formCriar" action="#" method="POST">
+		 		<div class="headerTop">
+		 			
+		 			<h2>Regista-te</h2>
+		 			<p>É rapido e fácil</p>
+		 			<hr>
+		 			<br>
+		 		</div>
+		 		<div class="contentNome">
+		 			<input name="nome" class="nome" class="inputGroup formInput" placeholder="Nome próprio"></input>
+		 			<input name="apelido" class="nome" class="inputGroup formInput" placeholder="Apelido"></input>
+		 		</div>
+		 		<input name="email" class="inputGroup" type="" placeholder="Número de telefone ou e-mail" name="">
+		 		<input name="pass" class="inputGroup" type="" placeholder="Palavra-passe nova" name="">
+		 		<div class="car-content">
+		 			
+		 		<p>Data de nascimento</p>
+		 		<div class="dataInputForm">
+		 			<select name="dia" class="dataDia" style="margin-left: 10px;">
+		 				 <option >1</option> 
+		 				 <option >2</option> 
+		 				 <option >3</option> 
+		 				 <option >4</option> 
+		 				 <option >5</option> 
+		 				 <option >6</option> 
+		 				 <option >7</option> 
+		 				 <option >8</option> 
+		 				 <option >9</option> 
+		 				 <option >10</option> 
+		 				 <option >11</option> 
+		 				 <option >12</option> 
+		 			</select>
+		 			<select class="dataMes" name="mes">
+		 				<option>Janeiro</option>
+		 				<option>Fevereiro</option>
+		 				<option>Março</option>
+		 				<option selected="" value="Abril">Abril</option>
+		 				<option>Maio</option>
+		 				<option>Junho</option>
+		 				<option>Agosto</option>
+		 				<option>Setembro</option>
+		 				<option>Outubro</option>
+		 				<option>Novembro</option>
+		 				<option>Dezembro</option>
+		 			</select>
+		 			<select class="dataAno" name="ano">
+		 				<option selected="">1999</option>
+		 				<option>2000</option>
+		 				<option>2001</option>
+		 				<option>2002</option>
+		 				<option>2003</option>
+		 				<option>2004</option>
+		 				<option>2005</option>
+		 				<option>2006</option>
+		 				<option>2007</option>
+		 				<option>2008</option>
+		 				<option>2009</option>
+		 				<option>2010</option>
+		 				<option>2011</option>
+		 				<option>2012</option>
+		 				<option>2013</option>
+		 				<option>2014</option>
+		 				<option>2015</option>
+		 				<option>2016</option>
+		 				<option>2017</option>
+		 				<option>2018</option>
+		 				<option>2020</option>
+		 				<option>2021</option>
+		 			</select>
+		 		</div>
+		 		</div>
+		 		<div class="car-content">
+		 			<p>Género</p>
+		 			<div class="dataInputFormGenero">
+		 				<span  class="org">Masculino<input value="0" class="estadoCidadao" checked="" name="radioGenero" type="radio"/></span>
+		 				
+		 				<span  class="org"  >Femenino<input value="1" class="estadoCidadao" name="radioGenero" type="radio"/></span>
+		 				<span  class="org" >Personalizar<input value="2" name="radioGenero" id="empresa" class="estadoCidadao" type="radio"/></span> 
+		 			</div>
+		 		</div>
+		 		<p class="avisoCriar">Ao clicares em Regista-te, aceitas os nossos Termos, a nossa <a href="#!">Política de Dados</a> e a nossa <a href="#!">Política de cookies</a>. Poderás receber notificações nossas por SMS e podes cancelá-las a qualquer altura.</p>
+		 		<button type="submit" name="btnsubmit" class="btn-submit">Regista-te</button>
+		 	</form>
+		 </section>
+
+		<script type="text/javascript" src="assets/js/login.js"></script>
+        
+    </body>
+	
+</html>
